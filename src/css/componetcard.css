@@ -1,0 +1,49 @@
+.movie-card{
+    max-width: 200px;
+    padding: 12px;
+    color: white;
+}
+
+.movie-card > .movie-info > h3{
+    color: #ef4c24;
+}
+
+.movie-poster{
+    position: relative;
+}
+.poster{
+    width: 200px;
+    height: fit-content;
+    
+}
+
+.like-button{
+    position:absolute;
+    top:10px;
+    right:-16px;
+}
+
+.fav-button{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px white;
+    transition: all 1s;
+}
+
+.fav-button :hover svg {
+    fill: #ef4c24;
+}
+
+.fav-button  svg path:hover{
+
+    fill: #ef4c24;
+}
+
+.active{
+    background-color: white;
+}

@@ -1,0 +1,12 @@
+.favorite-message{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:fit-content;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: rgb(58, 58, 58);
+    padding: 60px;
+    border-radius: 12px;
+    color: white;
+}
